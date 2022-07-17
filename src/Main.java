@@ -7,7 +7,7 @@ public class Main {
 
         if (pay > 1000){
             System.out.println("Скидка предоставляется в размере " + (discount) + " рублей");
+            System.out.println("Итоговая сумма счета: " + ((start) + (pay) + (discount)) + " рубля(ей)");
         }
-        System.out.println("Итоговая сумма счета: " + ((start) + (pay) + (discount)) + " рубля(ей)");
     }
 }
