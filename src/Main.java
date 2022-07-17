@@ -6,8 +6,8 @@ public class Main {
         int discount = pay / 100;    // Сумма кэшбека
 
         if (pay > 1000){
-            System.out.println("Скидка предоставляется в размере " + (discount) + " рублей");
-            System.out.println("Итоговая сумма счета: " + ((start) + (pay) + (discount)) + " рубля(ей)");
+            System.out.println("Сумма подарочных рублей: " + (discount) + "р.");
+            System.out.println("Итоговая сумма счета: " + ((start) + (pay) + (discount)) + "р.");
         }
     }
 }
